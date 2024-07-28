@@ -1,0 +1,82 @@
+:root {
+    --main-color: rgb(120, 142, 214);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+header nav a {
+    padding: 40px 20px 43px 20px;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    background-color: white;
+    color: var(--main-color);
+    padding: 40px 26px 43px 26px;
+}
+
+.conta a {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.registro {
+    background-color: white;
+    color: var(--main-color);
+}
+
+.registro:hover {
+    padding: 26px;
+}
+
+.login {
+    outline: 2px solid white;
+}
+
+.login:hover {
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+
+.img-destaque {
+    display: block;
+    width: 100%;
+    height: 750px;
+}
+
+.main-text {
+    position: absolute;
+    bottom: 45px;
+    left: 65px;
+    padding: 20px 30px;
+    font-size: 18px;
+}
