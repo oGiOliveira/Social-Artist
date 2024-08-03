@@ -1,15 +1,3 @@
-:root {
-    --main-color: rgb(120, 142, 214);
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-
 header {
     padding: 10px 20px 0px 20px;
     display: flex;
@@ -70,13 +58,35 @@ header nav a:hover {
 .img-destaque {
     display: block;
     width: 100%;
-    height: 750px;
+    height: 800px;
 }
 
-.main-text {
+.img-texto {
     position: absolute;
-    bottom: 45px;
+    bottom: 225px;
     left: 65px;
     padding: 20px 30px;
     font-size: 18px;
+}
+
+.img-texto h1 {
+    margin-bottom: 20px;
+}
+
+.img-texto p {
+    margin-bottom: 60px;
+}
+
+.img-texto a {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: var(--main-color);
+    transition-duration: 0.2s;
+}
+
+.img-texto a:hover {
+    padding: 26px;
 }
