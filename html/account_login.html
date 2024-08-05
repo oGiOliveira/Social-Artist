@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/account.login.style.css">
     <link rel="shortcut icon" href="../assets/logo-noline.png" type="image/x-icon">
 </head>
 <body>
     <main>
-        <h1>Login</h1>
-        <p>Email:</p>
-        <input type="email" name="email" id="email">
-        <p>Senha:</p>
-        <input type="password" name="senha" id="senha">
-        <a href="#">Esqueceu a senha?</a>
+        <div class="login">
+            <h1>Login</h1>
+            <p>Email:</p>
+            <input type="email" name="email" id="email">
+            <p>Senha:</p>
+            <input type="password" name="senha" id="senha">
 
-        <p><input type="checkbox" name="lembrar" id="lembrar"> Lembrar de mim</p>
+            <a href="#" id="direita">Esqueceu a senha?</a>
 
-        <a href="#">Login</a>
+            <p><input type="checkbox" name="lembrar" id="lembrar"> Lembrar de mim</p>
 
-        <p>Ainda não tem conta? <a href="account.html">Crie aqui!</a></p>
+            <a href="#" class="botao">Login</a>
 
-        <img src="../assets/imagem-fundo.jpg" alt="imagem de boas vindas">
+            <p id="centro">Ainda não tem conta? <a href="account.html">Crie aqui!</a></p>
+        </div>
+
+        <aside>
+            <img src="../assets/imagem-fundo.jpg" alt="imagem de boas vindas">
+        </aside>
     </main>
 </body>
 </html>

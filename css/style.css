@@ -1,5 +1,10 @@
+@charset "UTF-8";
+
 :root {
     --main-color: rgb(120, 142, 214);
+    --secondary-color: rgb(56, 55, 145);
+    --light-gray: rgb(216, 223, 226);
+    --black-gray: rgb(72, 73, 92);
 }
 
 
